@@ -1,0 +1,88 @@
+.results-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.report-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.prediction-card,
+.job-description-card {
+  background: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border-left: 6px solid #007bff;
+}
+
+.fake-badge {
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.real-badge {
+  background-color: #28a745;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.temporal-section {
+  margin-top: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.analyze-btn,
+.export-btn {
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.analyze-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.analyze-btn:hover {
+  background-color: #0056b3;
+}
+
+.export-btn {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.export-btn:hover {
+  background-color: #5a6268;
+}
+
+.no-result {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}

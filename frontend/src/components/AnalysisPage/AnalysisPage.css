@@ -1,0 +1,144 @@
+/* AnalysisPage.css */
+
+/* General page styling */
+.analysis-page {
+  min-height: 100vh;
+  background: #f4f7f9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container */
+.analysis-container {
+  max-width: 900px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.analysis-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.analysis-header h1 {
+  font-size: 2.4rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.analysis-header p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Cards for selecting input method */
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.input-card {
+  flex: 1 1 45%;
+  background: #f8fafd;
+  border: 2px solid #e0e7ef;
+  border-radius: 12px;
+  padding: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.input-card:hover {
+  border-color: #4a90e2;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.input-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.input-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Analysis box */
+.analysis-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.analysis-box textarea,
+.analysis-box input {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1.8px solid #d0d7de;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  resize: vertical;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.analysis-box textarea:focus,
+.analysis-box input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.3);
+}
+
+/* Buttons */
+.analysis-box button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.analysis-box button:first-of-type {
+  background: #4a90e2;
+  color: #fff;
+}
+
+.analysis-box button:first-of-type:hover:not(:disabled) {
+  background: #357ab8;
+}
+
+.analysis-box button:disabled {
+  background: #a0c4f3;
+  cursor: not-allowed;
+}
+
+.analysis-box button:last-of-type {
+  background: #f0f0f0;
+  color: #555;
+}
+
+.analysis-box button:last-of-type:hover {
+  background: #e0e0e0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .input-card {
+    flex: 1 1 100%;
+  }
+}

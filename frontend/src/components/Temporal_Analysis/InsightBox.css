@@ -1,0 +1,9 @@
+.insight-box {
+  background-color: #f0f8ff;
+  border-left: 4px solid #007bff;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+}
