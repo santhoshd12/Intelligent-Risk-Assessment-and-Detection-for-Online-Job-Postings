@@ -28,8 +28,8 @@ nlp = spacy.load("en_core_web_sm")
 print("[LOG] Model and vectorizer loaded successfully")
 
 # -------------------- Adzuna API Keys --------------------
-APP_ID = "8962e12f"
-APP_KEY = "b3518601c8d3d698e8eda58fa0f2fabd"
+APP_ID = "YOUR_APP_ID"
+APP_KEY = "YOUR_API_KEY"
 
 # -------------------- Utils --------------------
 def preprocess_text(text):
